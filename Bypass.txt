@@ -1,8 +1,4 @@
-//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
-//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
-//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
-//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
-MemoryPatch::createWithHex("libUE4.so", 0x2203F30, OBFUSCATE("00 00 00 00")).Modify(); //начало
+MemoryPatch::createWithHex("libUE4.so", 0x2203F30, OBFUSCATE("00 00 00 00")).Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x2204500, OBFUSCATE("28 10 9D E5")).Modify(); //by @Budichh
 MemoryPatch::createWithHex("libUE4.so", 0x220B440, OBFUSCATE("08 8D 96 07")).Modify(); //by @Budichh
 MemoryPatch::createWithHex("libUE4.so", 0x22298C0, OBFUSCATE("68 43 78 07")).Modify(); //by @Budichh

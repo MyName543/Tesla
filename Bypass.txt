@@ -1,0 +1,116 @@
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+MemoryPatch::createWithHex("libUE4.so", 0x2203F30, OBFUSCATE("00 00 00 00")).Modify(); //начало
+MemoryPatch::createWithHex("libUE4.so", 0x2204500, OBFUSCATE("28 10 9D E5")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x220B440, OBFUSCATE("08 8D 96 07")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x22298C0, OBFUSCATE("68 43 78 07")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x2210CF0, OBFUSCATE("BE 15 78 FF")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x2214480, OBFUSCATE("2C 00 8D E5")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x22196F0, OBFUSCATE("F0 4F 2D E9")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x221FD70, OBFUSCATE("00 00 E0 E3")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libUE4.so", 0x2220220, OBFUSCATE("01 70 A0 E3")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222A030, OBFUSCATE("40 70 AF 06")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222A390, OBFUSCATE("DC 6C AF 06")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222CB80, OBFUSCATE("04 04 9F E5")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222D750, OBFUSCATE("54 03 78 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222E1C0, OBFUSCATE("1C FB 77 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x222F760, OBFUSCATE("00 00 84 E5")).Modify(); // конец 
+MemoryPatch::createWithHex("libUE4.so", 0x2A00DD0, OBFUSCATE("F0 4F 2D E9")).Modify(); // новый 
+MemoryPatch::createWithHex("libUE4.so", 0x2A0F140, OBFUSCATE("01 20 A0 E3")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A19FB0, OBFUSCATE("44 44 F9 06")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A1F180, OBFUSCATE("F2 CD 1E EB")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A3CDE0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A3D3F0, OBFUSCATE("F0 88 BD E8")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A3E790, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A40440, OBFUSCATE("2C B8 37 FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A408C0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A51780, OBFUSCATE("30 50 0B E5")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A532F0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A54230, OBFUSCATE("A7 43 42 FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A5F310, OBFUSCATE("1A 01 00 0A")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A69AE0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2A6A920, OBFUSCATE("F0 4F 2D E9")).Modify(); // конец
+MemoryPatch::createWithHex("libUE4.so", 0x23016B0, OBFUSCATE("F0 4D 2D E9")).Modify(); // новый
+MemoryPatch::createWithHex("libUE4.so", 0x2303A50, OBFUSCATE("F0 4D 2D E9")).Modify(); 
+MemoryPatch::createWithHex("libUE4.so", 0x2311F70, OBFUSCATE("E8 FF FF 1A")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2313300, OBFUSCATE("0A B1 B2 FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2313A00, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2314010, OBFUSCATE("B4 75 AA FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2314360, OBFUSCATE("70 9C 69 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x231BFF0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x231DF60, OBFUSCATE("34 00 1B E5")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x231FA80, OBFUSCATE("05 00 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2320280, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2320630, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2321F70, OBFUSCATE("01 02 00 1A")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x232AEF0, OBFUSCATE("F0 8F BD E8")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x232F070, OBFUSCATE("F0 4F 2D E9")).Modify(); // конец
+MemoryPatch::createWithHex("libUE4.so", 0x2401540, OBFUSCATE("6A A7 F8 EB")).Modify(); // новый
+MemoryPatch::createWithHex("libUE4.so", 0x24023E0, OBFUSCATE("05 10 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2402AF0, OBFUSCATE("40 1A B4 EE")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x240E4B0, OBFUSCATE("00 00 52 E3")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x240FCD0, OBFUSCATE("BD 68 F8 EB")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x240FFE0, OBFUSCATE("9C DF 59 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x24103A0, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2411E40, OBFUSCATE("06 10 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2416FD0, OBFUSCATE("3E 1B 9B DA")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x241A1B0, OBFUSCATE("A0 3A 59 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x241D0C0, OBFUSCATE("70 4C 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2421040, OBFUSCATE("F0 4F 2D E9")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2421640, OBFUSCATE("00 00 52 E3")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2422700, OBFUSCATE("31 1E F8 EB")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2431150, OBFUSCATE("14 1A 1F E5")).Modify(); // конец
+MemoryPatch::createWithHex("libUE4.so", 0x25002E0, OBFUSCATE("01 00 13 E3")).Modify(); // новый
+MemoryPatch::createWithHex("libUE4.so", 0x25008B0, OBFUSCATE("70 8C BD E8")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2505F50, OBFUSCATE("3B 3B 6B D8")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2505FE0, OBFUSCATE("3A 7B 9B D8")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x2514510, OBFUSCATE("00 00 50 E3")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x251B000, OBFUSCATE("05 00 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x251C850, OBFUSCATE("00 60 A0 13")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25E2F40, OBFUSCATE("1A 2A 9D ED")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25E41E0, OBFUSCATE("00 90 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25E9E70, OBFUSCATE("CB 22 8A FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25EA9D0, OBFUSCATE("00 50 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25EAE70, OBFUSCATE("B4 4A A2 FF")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25EDC80, OBFUSCATE("40 FE 3B 07")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25EF950, OBFUSCATE("05 00 A0 E1")).Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x25F09C0, OBFUSCATE("F0 4F 2D E9")).Modify(); //конец
+
+MemoryPatch::createWithHex("libanogs.so", 0x02A2C10, OBFUSCATE("4E 52 C0 F2 8C 22")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02CE9E0, OBFUSCATE("40 F0 AC 87")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02C4A90, OBFUSCATE("42 91 87 46")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02C23F0, OBFUSCATE("BD E8 00 0F")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02C2290, OBFUSCATE("00 F0 04 B8")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02BC340, OBFUSCATE("CD E9 15 69")).Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x02B4670, OBFUSCATE("F0 B5 03 AF")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libanogs.so", 0x02AB8A0, OBFUSCATE("05 F0 DE BC")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libanogs.so", 0x02A6130, OBFUSCATE("32 93 97 46")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libanogs.so", 0x02A02F0, OBFUSCATE("F0 BD 00 BF")).Modify(); //by @Budichh
+
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D9A00, OBFUSCATE("19 43 70 47")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D76E0, OBFUSCATE("03 F0 3E BB")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D4ED0, OBFUSCATE("F0 B5 03 AF")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D3AE0, OBFUSCATE("F0 B5 03 AF")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D2FA0, OBFUSCATE("C9 E7 00 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D26A0, OBFUSCATE("00 20 D0 BD")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D1E60, OBFUSCATE("F0 B5 03 AF")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00D1880, OBFUSCATE("F0 B5 03 AF")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x008F730, OBFUSCATE("BD E8 F0 8F")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x008E6D0, OBFUSCATE("BD E8 F0 83")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x008DCA0, OBFUSCATE("2D E9 F0 4F")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x008D510, OBFUSCATE("F0 8F 00 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x008D170, OBFUSCATE("1E C5 06 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00758F0, OBFUSCATE("B4 3C 08 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x006E8F0, OBFUSCATE("F6 70 08 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x0068FD0, OBFUSCATE("2D E9 F0 4F")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00681E0, OBFUSCATE("98 00 00 20")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libRoosterNN.so", 0x00401B0, OBFUSCATE("C5 EE FF FF")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libRoosterNN.so", 0x003FB30, OBFUSCATE("DE 44 0B 00")).Modify(); //by @Budichh
+MemoryPatch::createWithHex("libRoosterNN.so", 0x0025CA0, OBFUSCATE("00 F0 02 F8")).Modify(); //by @Budichh
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
+//ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH //ПИСАЛ ВЕЛИКИЙ @BUDICHH
